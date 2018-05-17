@@ -1,6 +1,6 @@
 #!/bin/sh
 # 收集 ES reject 数量
-#str=$(curl -X GET 'http://172.16.42.12:8200/_cat/thread_pool/bulk?v&h=node_name,name,active,rejected,completed,size,type,queue,queue_size,largest,min,max&format=json')
+#str=$(curl -X GET 'http://ip:port/_cat/thread_pool/bulk?v&h=node_name,name,active,rejected,completed,size,type,queue,queue_size,largest,min,max&format=json')
 
 _index="maomao_es_monitor"`date +"%Y-%m-%d"`
 _type="monitor"
